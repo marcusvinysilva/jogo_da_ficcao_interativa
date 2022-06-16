@@ -216,6 +216,7 @@ function batalhar(){
             while(aranhas.vida > 0){
                 aranhas.vida = aranhas.vida - personagem.forca;
                 console.log('Você atacou a aranha.');
+                console.log(`Vida da aranha: ${aranha.vida}.`);
                 personagem.vida = personagem.vida - aranhas.dano;
                 console.log('Você foi atacado.');
                 console.log(`Vida: ${personagem.vida}.`);
@@ -240,6 +241,7 @@ function batalhar(){
             while(esqueletos.vida > 0){
                 esqueletos.vida = esqueletos.vida - personagem.forca;
                 console.log('Você atacou o esqueleto.');
+                console.log(`Vida do esqueleto: ${esqueleto.vida}.`);
                 personagem.vida = personagem.vida - esqueletos.dano;
                 console.log('Você foi atacado.');
                 console.log(`Vida: ${personagem.vida}.`);
@@ -264,6 +266,7 @@ function batalhar(){
             while(fantasmas.vida > 0){
                 fantasmas.vida = fantasmas.vida - personagem.forca;
                 console.log('Você atacou o fantasma.');
+                console.log(`Vida do fantasma: ${fantasma.vida}.`);
                 personagem.vida = personagem.vida - fantasmas.dano;
                 console.log('Você foi atacado.');
                 console.log(`Vida: ${personagem.vida}.`);
@@ -288,6 +291,7 @@ function batalhar(){
             while(leoes.vida > 0){
                 leoes.vida = leoes.vida - personagem.forca;
                 console.log('Você atacou o leão.');
+                console.log(`Vida do leão: ${leao.vida}.`);
                 personagem.vida = personagem.vida - leoes.dano;
                 console.log('Você foi atacado.');
                 console.log(`Vida: ${personagem.vida}.`);
