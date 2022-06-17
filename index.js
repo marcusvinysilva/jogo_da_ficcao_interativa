@@ -216,7 +216,7 @@ function batalhar(){
             while(aranhas.vida > 0){
                 aranhas.vida = aranhas.vida - personagem.forca;
                 console.log('Você atacou a aranha.');
-                console.log(`Vida da aranha: ${aranha.vida}.`);
+                console.log(`Vida da aranha: ${aranhas.vida}.`);
                 personagem.vida = personagem.vida - aranhas.dano;
                 console.log('Você foi atacado.');
                 console.log(`Vida: ${personagem.vida}.`);
